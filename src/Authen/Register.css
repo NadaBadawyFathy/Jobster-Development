@@ -1,0 +1,51 @@
+
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eee;
+}
+
+.card {
+    width: 350px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-header {
+    margin-bottom: 20px;
+}
+
+.card-body form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #007bff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.card-footer {
+    margin-top: 10px;
+}
+
+.card-footer a {
+    color: #007bff;
+    text-decoration: none;
+}

@@ -1,0 +1,68 @@
+
+
+.landing-container {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 2rem;
+}
+.landing-header {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.logo-image {
+    max-width: 150px; 
+}
+
+.landing-main {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-title {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 33px;
+    margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+    .main-title {
+        font-size: 45px;
+    }
+}
+.highlight {
+    color: #007bff;
+}
+
+.description {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 33px;
+    color: gray;
+}
+
+.cta-button {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.landing-image {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width:767px) {
+    .landing-image {
+        display: none;
+    }
+}
